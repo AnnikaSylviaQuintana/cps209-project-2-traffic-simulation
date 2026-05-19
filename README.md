@@ -9,6 +9,7 @@ This project uses Java Swing to create an animated traffic scene. A car moves ac
 - Java Swing GUI window
 - Custom graphics using `paintComponent()`
 - Animated car movement
+- Separate `Car` class for car drawing and movement logic
 - Mouse controls for traffic light interaction
 - Keyboard controls:
   - `g` = green light / go
@@ -21,5 +22,6 @@ This project uses Java Swing to create an animated traffic scene. A car moves ac
 
 ## Files
 
-- `Traffic.java` — main GUI, drawing, animation, and event-handling logic
+- `Car.java` — handles the car's position, movement, randomized colours, drawing, and status updates
+- `Traffic.java` — main GUI, road/traffic-light drawing, mouse controls, keyboard controls, labels, button, and animation logic
 - `Project2Runner.java` — runner file used to start the program
